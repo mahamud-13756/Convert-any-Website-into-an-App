@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFE715"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Website Link"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_marginTop="40sp"
+        android:hint="Paste your Link Here"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/inputLink"
+        >
+
+
+
+
+
+    </com.google.android.material.textfield.TextInputEditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:id="@+id/btnConvert"
+        >
+
+
+    </Button>
+
+
+</LinearLayout>
